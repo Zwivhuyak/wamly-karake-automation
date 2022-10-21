@@ -1,0 +1,4 @@
+Scenario,Email,Password,organizationName,isPostalSameAsPhysical,OrgId,subscription,distributor
+1,mthobisi@commandquality.co.za,Ntl@hl@M@rc3l#,Automation-Desry,true,178f8bec-8169-409c-9a74-94532f63b560,LARGE,LARGE
+1,superuser1@mailsac.com,Wamly@123,Automation-Desry,true,178f8bec-8169-409c-9a74-94532f63b560,LARGE,LARGE
+

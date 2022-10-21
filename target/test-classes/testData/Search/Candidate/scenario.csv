@@ -1,0 +1,2 @@
+TestId,scenarioDescription,organizationId,requester,Password,endpoint,nationality,projectStatus,department
+1,CandidateSearch,cbda200c-435f-4bce-a465-784d91ef2a6a,lothar@commandquality.co.za,Lothar@04!,/wamly/v1/report/search/candidates,south african,complete,Development

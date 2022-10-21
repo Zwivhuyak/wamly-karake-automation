@@ -1,0 +1,7 @@
+{
+  "emailContent":"<p>Hello there #FIRSTNAME# #LASTNAME#</p><p>&nbsp;</p>\\n<p>Interview Link.</p>\\n<p>#INVITELINK#</p>",
+  "type":"",
+  "name":"Project D",
+  "subjectLine":"New Invitation",
+  "invitation":true
+}

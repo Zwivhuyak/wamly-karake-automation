@@ -1,0 +1,16 @@
+TestId,status,organizationId,requesterEmail,Password,path,message,secondStatus
+1,INACTIVE,178f8bec-8169-409c-9a74-94532f63b560,lucky011@cmdq.co.za,P@ssword1,/token/status,Token disabled,403
+2,ACTIVE,178f8bec-8169-409c-9a74-94532f63b560,lucky011@cmdq.co.za,P@ssword1,/token/status,Token enabled,200
+2,ACTIVE,178f8bec-8169-409c-9a74-94532f63b560,lucky011@cmdq.co.za,P@ssword1,/token/status,Token enabled,200
+2,ACTIVE,178f8bec-8169-409c-9a74-94532f63b560,lucky011@cmdq.co.za,P@ssword1,/token/status,Token enabled,200
+2,ACTIVE,178f8bec-8169-409c-9a74-94532f63b560,lucky011@cmdq.co.za,P@ssword1,/token/status,Token enabled,200
+2,ACTIVE,178f8bec-8169-409c-9a74-94532f63b560,lucky011@cmdq.co.za,P@ssword1,/token/status,Token enabled,200
+2,ACTIVE,178f8bec-8169-409c-9a74-94532f63b560,lucky011@cmdq.co.za,P@ssword1,/token/status,Token enabled,200
+2,ACTIVE,178f8bec-8169-409c-9a74-94532f63b560,lucky011@cmdq.co.za,P@ssword1,/token/status,Token enabled,200
+2,ACTIVE,178f8bec-8169-409c-9a74-94532f63b560,lucky011@cmdq.co.za,P@ssword1,/token/status,Token enabled,200
+2,ACTIVE,178f8bec-8169-409c-9a74-94532f63b560,lucky011@cmdq.co.za,P@ssword1,/token/status,Token enabled,200
+2,ACTIVE,178f8bec-8169-409c-9a74-94532f63b560,lucky011@cmdq.co.za,P@ssword1,/token/status,Token enabled,200
+2,ACTIVE,178f8bec-8169-409c-9a74-94532f63b560,lucky011@cmdq.co.za,P@ssword1,/token/status,Token enabled,200
+2,ACTIVE,178f8bec-8169-409c-9a74-94532f63b560,lucky011@cmdq.co.za,P@ssword1,/token/status,Token enabled,200
+2,ACTIVE,178f8bec-8169-409c-9a74-94532f63b560,lucky011@cmdq.co.za,P@ssword1,/token/status,Token enabled,200
+2,ACTIVE,178f8bec-8169-409c-9a74-94532f63b560,lucky011@cmdq.co.za,P@ssword1,/token/status,Token enabled,200

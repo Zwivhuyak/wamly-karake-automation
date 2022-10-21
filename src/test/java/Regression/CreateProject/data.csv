@@ -1,0 +1,3 @@
+Scenario,Email,Password,organizationName,OrgId,subscription,distributor,SystemManagerEmail,templateId
+1,mthobisi@commandquality.co.za,Ntl@hl@M@rc3l#,Karate,dc141d52-2a86-4550-a146-ca2867a18f71,LITE,LITE,lucky011@cmdq.co.za,60687081-99fd-4a76-9522-93380c53ae5c
+1,superuser1@mailsac.com,Wamly@123,Karate,dc141d52-2a86-4550-a146-ca2867a18f71,LITE,LITE,lucky011@cmdq.co.za,60687081-99fd-4a76-9522-93380c53ae5c

@@ -1,0 +1,14 @@
+{
+  "allowBreather":"string",
+  "allowDemographics":"string",
+  "blurVideo":"string",
+  "customEmail":"string",
+  "hideRaters":"string",
+  "notification":"string",
+  "notifyAdmin":"string",
+  "organizationId":"string",
+  "pageNumber":0,
+  "pageSize":0,
+  "projectName":"string",
+  "status":"string"
+}

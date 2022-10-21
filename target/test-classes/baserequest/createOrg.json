@@ -1,0 +1,58 @@
+{
+  "responses": {
+    "code": "${code}",
+    "message": "${message}"
+  },
+
+
+  "code": "",
+  "replyToAddress":"${replyToAddress}",
+  "subscription":"${Subscription}",
+  "organizationDepartments": [
+    {
+      "departmentName": "${DepartmentName}",
+      "status": "${Status}"
+    },
+{
+"departmentName": "${Department2_Name}",
+"status": "${Status}"
+}
+  ],
+  "isPostalSameAsPhysical":"${PostalSAmeAsPhysical}",
+  "invoicingAddresses":[
+    {
+      "invoiceAddress":"${Invoice_Email}"
+    }
+  ],
+  "distributor": "${distributor}",
+  "mailingAddress": "${mailingAddress}",
+  "organizationName": "${organizationName}",
+  "organizationType": "${organizationType}",
+  "postalAddress": {
+    "city": "${Postal_Address_city}",
+    "country": "${Postal_Address_country}",
+    "line1": "${Postal_Address_line1}",
+    "line2": "${Postal_Address_line2}",
+    "postalCode": "${Postal_Address_Postal_code}",
+    "suburb": "${Postal_Address_suburb}"
+  },
+  "physicalAddress": {
+    "city": "${Physical_Address_city}",
+    "country": "${Physical_Address_country}",
+    "line1": "${Physical_Address_line1}",
+    "line2": "${Physical_Address_line2}",
+    "postalCode": "${Physical_Address_Postal_code}",
+    "suburb": "${Physical_Address_suburb}"
+  },
+  "registeredName": "${registeredName}",
+  "systemManagers": [
+    {
+      "contactNumber": "${ContactNumber}",
+      "email": "${E-mail}",
+      "firstName": "${FirstName}",
+      "lastName": "${LastName}",
+      "role": "${Role}"
+    }
+  ],
+  "telephoneNumber": "${telephoneNumber}"
+}

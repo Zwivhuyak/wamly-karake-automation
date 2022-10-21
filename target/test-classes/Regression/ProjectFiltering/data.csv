@@ -1,0 +1,7 @@
+Scenario #,Email,Password,FieldFilter,FilterValue,OrgId
+1,raterTest@commandquality.co.za,P@ssword1,status,ACTIVE,fe187821-ca80-40c5-b265-9f24ab3754dd
+2,raterTest@commandquality.co.za,P@ssword1,status,INACTIVE,fe187821-ca80-40c5-b265-9f24ab3754dd
+3,raterTest@commandquality.co.za,P@ssword1,department,Default,fe187821-ca80-40c5-b265-9f24ab3754dd
+4,raterTest@commandquality.co.za,P@ssword1,department,IT Department,fe187821-ca80-40c5-b265-9f24ab3754dd
+5,raterTest@commandquality.co.za,P@ssword1,creatorEmail,raterTest@commandquality.co.za,fe187821-ca80-40c5-b265-9f24ab3754dd
+6,raterTest@commandquality.co.za,P@ssword1,creatorEmail,lucky015@cmdq.co.za,fe187821-ca80-40c5-b265-9f24ab3754dd

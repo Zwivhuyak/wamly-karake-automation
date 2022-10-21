@@ -1,0 +1,100 @@
+{
+  "code": "200",
+  "response": {
+    "id": "33c6ca6e-1439-4c7a-ac90-ee6a610626f6",
+    "organizationId": "5a5c5357-672a-49ba-8be2-8f980b8b4d69",
+    "wamlyDefault": false,
+    "name": "Date Picker form",
+    "description": "how we doing",
+    "fields": [
+      {
+        "id": "a16c6bc5-2cc0-4929-a261-0c5ab289150f",
+        "name": "Candidate Name",
+        "regex": null,
+        "value": null,
+        "dataType": "TextInput",
+        "required": true,
+        "systemField": true,
+        "fieldType": null,
+        "index": 0,
+        "responses": null,
+        "field": true,
+        "multi": false
+      },
+      {
+        "id": "5a72d05f-48a6-4cd0-8a78-483cada1d5fb",
+        "name": "Candidate Surname",
+        "regex": null,
+        "value": null,
+        "dataType": "TextInput",
+        "required": true,
+        "systemField": true,
+        "fieldType": null,
+        "index": 1,
+        "responses": null,
+        "field": true,
+        "multi": false
+      },
+      {
+        "id": "f6491e33-5de9-4ee8-aac4-8eca81f5df92",
+        "name": "Candidate Email",
+        "regex": null,
+        "value": null,
+        "dataType": "TextInput",
+        "required": true,
+        "systemField": true,
+        "fieldType": null,
+        "index": 2,
+        "responses": null,
+        "field": true,
+        "multi": false
+      },
+      {
+        "id": "9b8e8602-ff2d-4cc1-abb9-e0d4c213336c",
+        "name": "Candidate Mobile Number",
+        "regex": null,
+        "value": null,
+        "dataType": "TextInput",
+        "required": true,
+        "systemField": true,
+        "fieldType": null,
+        "index": 3,
+        "responses": null,
+        "field": true,
+        "multi": false
+      },
+      {
+        "id": "d9506b3a-d51b-40cb-81a0-d53b4092f363",
+        "name": "When did you start?",
+        "regex": null,
+        "value": null,
+        "dataType": "DatePicker",
+        "required": false,
+        "systemField": false,
+        "fieldType": null,
+        "index": 4,
+        "responses": null,
+        "field": true,
+        "multi": false
+      },
+      {
+        "id": "85c98865-8b08-4362-af82-fccb92ee93e9",
+        "name": "Date of Birth",
+        "regex": null,
+        "value": null,
+        "dataType": "DatePicker",
+        "required": false,
+        "systemField": false,
+        "fieldType": null,
+        "index": 5,
+        "responses": null,
+        "field": true,
+        "multi": false
+      }
+    ],
+    "status": "ACTIVE",
+    "default": true
+  },
+  "message": "Form retrieved successfully",
+  "identifier": null
+}

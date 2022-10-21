@@ -1,0 +1,52 @@
+{
+  "code": "",
+  "replyToAddress":"lucky011@cmdq.co.za",
+  "subscription":"",
+  "organizationDepartments": [
+    {
+      "departmentName": "",
+      "status": ""
+    },
+    {
+      "departmentName": "",
+      "status": ""
+    }
+  ],
+  "isPostalSameAsPhysical":"",
+  "invoicingAddresses":[
+    {
+      "invoiceAddress":"lucky011@gmail.com"
+    }
+  ],
+  "distributor": "${distributor}",
+  "mailingAddress": "lucky011@cmdq.co.za",
+  "organizationName": "",
+  "organizationType": "${organizationType}",
+  "postalAddress": {
+    "city": "Johanessburg",
+    "country": "South Africa",
+    "line1": "jdjndjnd",
+    "line2": "jndjndj",
+    "postalCode": "1234",
+    "suburb": "Soweto"
+  },
+  "physicalAddress": {
+    "city": "Kwinda",
+    "country": "Mozambique",
+    "line1": "2344",
+    "line2": "1223",
+    "postalCode": "1234",
+    "suburb": "Soweto"
+  },
+  "registeredName": "${registeredName}",
+  "systemManagers": [
+    {
+      "contactNumber": "1234567",
+      "email": "lucky011@cmdq.co.za",
+      "firstName": "gghh",
+      "lastName": "nnnn",
+      "role": "SYSTEM_MANAGER"
+    }
+  ],
+  "telephoneNumber": "0123456789"
+}

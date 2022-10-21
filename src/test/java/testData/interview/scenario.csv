@@ -1,0 +1,3 @@
+TestId,projectName,projectId,candidateEmail,organizationId,apiKey,requesterEmail,Password,endpoint,message,status
+1,Z1-medium,df12071d-f8b6-4a75-8068-0aee6e60cf0e,4wamly@mailsac.com,fe187821-ca80-40c5-b265-9f24ab3754dd,09d6d40a-0dc2-448b-af6a-7882c70906aa,raterTest@commandquality.co.za,P@ssword1,/wamly/v1/report/users,Interview Retrieved,200
+1,Z1-medium,df12071d-f8b6-4a75-8068-0aee6e60cf0e,9wamly@mailsac.com,fe187821-ca80-40c5-b265-9f24ab3754dd,09d6d40a-0dc2-448b-af6a-7882c70906aa,raterTest@commandquality.co.za,P@ssword1,/wamly/v1/report/users,Candidate with email not found.,404

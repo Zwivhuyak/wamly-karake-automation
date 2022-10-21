@@ -1,0 +1,4 @@
+Test_id,endpoint,username,password,user_pool,client_id,scenarioDescription,organizationId,FormName,FieldName,FormDescription
+1,/form,mkmlungisi7@gmail.com,Password@1,eu-west-1_j0AIgPw0L,75ledea1bfgs1tsqlo1p7t271d,Administrator creates a form with only Candidate Name,a2a4851f-76bd-499d-afc5-ef1ed5392d1e,Form1Script123_411,Candidate Name,Form Created by auto script
+2,/form,Sandilephensulo@gmail.com,Mozie1234!@#$,eu-west-1_j0AIgPw0L,75ledea1bfgs1tsqlo1p7t271d,System_manager creates a form with only Candidate Email,5a5c5357-672a-49ba-8be2-8f980b8b4d69,SYSTEMAN_211,Candidate Email,Form Created by auto script
+3,/form,Sandilephensulo@gmail.com,Mozie1234!@#$,eu-west-1_j0AIgPw0L,75ledea1bfgs1tsqlo1p7t271d,System_manager creates a form with only Candidate Mobile,5a5c5357-672a-49ba-8be2-8f980b8b4d69,SYSTEMAN_311,Candidate Mobile Number,Form Created by auto script

@@ -1,0 +1,2 @@
+TestId,scenarioDescription,organizationId,requester,Password,endpoint,name,surname,mobile
+1,UsersSearch,cbda200c-435f-4bce-a465-784d91ef2a6a,lothar@commandquality.co.za,Lothar@04!,/wamly/v1/report/search/users,Jax,Jeggs,1234523451

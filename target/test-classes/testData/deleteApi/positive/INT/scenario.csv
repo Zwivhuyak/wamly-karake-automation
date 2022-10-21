@@ -1,0 +1,2 @@
+TestId,scenarioDescription,organizationId,requester,Password,target,candidateId,userId,endpoint,message
+1,user deletes an organisation,0ba0e294-7789-4060-8769-0443bade6928,delete@mailsac.com,Khoza@30,client,,,/request/delete,Delete requested. Verification pending

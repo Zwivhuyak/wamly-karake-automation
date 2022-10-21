@@ -1,0 +1,2 @@
+TestId,scenarioDescription,organizationId,requesterEmail,Password,endpoint,message
+1,GetUsers,178f8bec-8169-409c-9a74-94532f63b560,lucky011@cmdq.co.za,P@ssword1,/wamly/v1/report/users,Delete requested. Verification pending

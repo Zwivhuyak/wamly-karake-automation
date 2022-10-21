@@ -1,0 +1,48 @@
+{
+  "default": false,
+  "description": "Just TestingWamsyd",
+  "fields": [
+    {
+      "fieldType": "",
+      "dataType": "TextInput",
+      "name": "Candidate Name",
+      "required": true,
+      "responses": []
+    },
+    {
+      "fieldType": "",
+      "dataType": "TextInput",
+      "name": "Candidate Surname",
+      "required": true,
+      "responses": []
+    },
+    {
+      "fieldType": "",
+      "dataType": "TextInput",
+      "name": "Candidate Email",
+      "required": true,
+      "responses": []
+    },
+    {
+      "fieldType": "",
+      "dataType": "TextInput",
+      "name": "Candidate Mobile Number",
+      "required": true,
+      "responses": []
+    },
+    {
+      "fieldType": "Country",
+      "dataType": "Dropdown",
+      "name": "Country",
+      "responses": [
+        {
+          "value": "",
+          "name": "Albania"
+        }
+      ]
+    }
+  ],
+  "name": "Wamly Testting  ggj",
+  "organizationId": "646483eb-0895-47d1-9b14-cc8fb0bf835c",
+  "wamlyDefault": false
+}

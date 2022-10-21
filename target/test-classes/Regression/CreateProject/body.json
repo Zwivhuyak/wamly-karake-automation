@@ -1,0 +1,41 @@
+{
+  "projectName":"New Marcel Project",
+  "projectId":"",
+  "startDate":"2022-03-31",
+  "endDate":"",
+  "status":"DRAFT",
+  "replyToMail":"mthobisi@commandquality.co.za",
+  "description":"",
+  "questions":[
+    {
+      "id":"2474715d-9a41-48f7-97a2-7297de72bdd4",
+      "question":"Question",
+      "responseTime":60,
+      "preparationTime":15,
+      "flag":""}
+  ],
+  "raters":[
+    {
+      "flag":null,
+      "id":"e4677630-fe7a-4efd-bfed-022ed02ba556",
+      "firstName":"Charles",
+      "lastName":"M",
+      "email":"ntlekom@gmail.com",
+      "status":"ACTIVE"
+    }
+  ],
+  "allowBreather":true,
+  "candidateDTOS":[],
+  "notification":true,
+  "notifyAdmin":true,
+  "allowDemographics":true,
+  "hideFromRaters":true,
+  "departmentId":"e2f63d18-4f8c-4043-bea0-c43dee89ac82",
+  "introVideoId":"",
+  "templateId":"",
+  "organizationId":"dc141d52-2a86-4550-a146-ca2867a18f71",
+  "interviewGuideId":"",
+  "customEmail":"",
+  "blurVideo":false,
+  "formDTO":null
+}

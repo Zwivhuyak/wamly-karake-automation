@@ -1,0 +1,4 @@
+TestId,scenarioDescription,organizationId,requester,Password,endpoint,message
+1,GetUsers,cbda200c-435f-4bce-a465-784d91ef2a6a,lothar@commandquality.co.za,Lothar@04!,/wamly/v1/report/users,Delete requested. Verification pending
+2,GetProjects,cbda200c-435f-4bce-a465-784d91ef2a6a,lothar@commandquality.co.za,Lothar@04!,wamly/v1/report/projects,Delete requested. Verification pending
+3,GetCandidates,cbda200c-435f-4bce-a465-784d91ef2a6a,lothar@commandquality.co.za,Lothar@04!,/wamly/v1/report/candidates,Delete requested. Verification pending

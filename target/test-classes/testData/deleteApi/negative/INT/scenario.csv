@@ -1,0 +1,6 @@
+TestId,scenarioDescription,organizationId,requester,Password,target,candidateId,userId,endpoint
+1,user request with for a delete with an invalid orgID,cc6d41e10286,,client,,,/wamly/v1/request/delete
+2,user request with for a delete with an invalid candID,cc6d41e10286,,candidate,,,/wamly/v1/request/delete
+3,user request with for a delete with an invalid userID,cc6d41e10286,,user,,,/wamly/v1/request/delete
+4, user initiates a delete without specifying a target,6d8e569a-d534-47c7-8b48-abfe4f2d02d4,,,,,/wamly/v1/request/delete
+6, user initiates a delete with an invalid target,6d8e569a-d534-47c7-8b48-abfe4f2d02d4,,invalid,,,/wamly/v1/request/delete

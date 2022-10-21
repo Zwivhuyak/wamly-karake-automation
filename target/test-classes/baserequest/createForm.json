@@ -1,0 +1,42 @@
+{
+  "default": true,
+  "description": "",
+  "fields": [
+
+    {
+      "id": null,
+      "name": null,
+      "regex": null,
+      "value": null,
+      "dataType": "string",
+      "required": true,
+      "systemField": true,
+      "index": 0,
+      "responses": null,
+      "field": true
+    },
+    {
+      "id": "",
+      "name": "String2",
+      "regex": "",
+      "value": "",
+      "dataType": "",
+      "required": true,
+      "systemField": true,
+      "index": 0,
+      "responses": [
+        {
+          "id": "string",
+          "value": "string",
+          "name": "string",
+          "selected": true
+        }
+      ],
+      "field": false
+    }
+  ],
+  "id": "",
+  "name": "",
+  "organizationId": "",
+  "wamlyDefault": true
+}

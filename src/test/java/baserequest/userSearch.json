@@ -1,0 +1,7 @@
+{
+  "firstName":"string",
+  "lastName":"string",
+  "mobileNumber":"string",
+  "organizationId":"string",
+  "userEmail":"string"
+}

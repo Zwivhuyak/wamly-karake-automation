@@ -1,0 +1,3 @@
+Scenario #,Email,Password,FieldFilter,FilterValue,OrgId,Permission
+1,lucky011@cmdq.co.za,P@ssword1,status,ACTIVE,fe187821-ca80-40c5-b265-9f24ab3754dd,SM
+1,yoshie@mailsac.com,P@ssword1,status,ACTIVE,fe187821-ca80-40c5-b265-9f24ab3754dd,RATER

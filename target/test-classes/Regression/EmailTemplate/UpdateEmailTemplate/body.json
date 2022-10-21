@@ -1,0 +1,7 @@
+{
+  "emailContent":"<p>Hello there#FIRSTNAME##LASTNAME#</p>\n<p>&nbsp;</p>\n<p>We invite you to take interview with us.</p>\n<p>Please click on the link below to accept the interview&nbsp;</p>\n<p>#INVITELINK#</p>",
+  "type":"",
+  "name":"API",
+  "subjectLine":"You are invited to attend the interview",
+  "invitation":true
+}

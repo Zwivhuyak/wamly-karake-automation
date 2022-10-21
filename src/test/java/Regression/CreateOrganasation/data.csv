@@ -1,0 +1,3 @@
+Scenario,Email,Password,organizationName,isPostalSameAsPhysical,OrgId,subscription,distributor
+1,lucky011@cmdq.co.za,P@ssword1,ORG2DELETE,false,178f8bec-8169-409c-9a74-94532f63b560,LARGE,LARGE
+

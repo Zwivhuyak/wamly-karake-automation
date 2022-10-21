@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>Regression.UpdateOrgDetails.OrgDetails</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-06-14 12:47:27 pm</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1.1:39]"><span>[1.1:39]</span> <span>Update Org Details</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">Regression/UpdateOrgDetails/OrgDetails.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Organization</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.1:39]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">absa</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.1:39]</span>
+                <span class="scenario-name">Update Org Details</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>3826</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.1:39]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.1:39]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def datasheet = read(&#39;data.csv&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.3">12:47:23.169 Environment system property was: uat 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:39]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def json = read(&#39;body.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:39]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def extractor = Java.type(&quot;common.Config&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:39]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def date = new extractor().todaysDateTime()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://api.uatwamly.co.za/wamly/v1//organization/f4312418-e16b-4b94-8e6a-e4b11156c56d/details&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def username = &#39;lucky011@cmdq.co.za&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def password = &#39;P@ssword1&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>call read(&#39;classpath:../Authentication/getToken.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3008</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="1.14.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">Authentication.getToken</div>
+      </div>
+      <div class="time-cell passed">2995</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.14.0.call">
+    <div class="step-container" id="1.14.0.call.1.6">
+      <div class="step-ref passed">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def body = read(&#39;classpath:baserequest/generateToken.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.14.0.call">
+    <div class="step-container" id="1.14.0.call.1.7">
+      <div class="step-ref passed">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def datasheet = read(&#39;data.csv&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.14.0.call">
+    <div class="step-container" id="1.14.0.call.1.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://ob4tlf46j7.execute-api.eu-west-1.amazonaws.com/default/GetToken&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.14.0.call">
+    <div class="step-container" id="1.14.0.call.1.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>request body</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.14.0.call">
+    <div class="step-container" id="1.14.0.call.1.12">
+      <div class="step-ref passed">12</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def username = karate.get(&#39;username&#39;, &#39;lucky011@cmdq.co.za&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.14.0.call">
+    <div class="step-container" id="1.14.0.call.1.13">
+      <div class="step-ref passed">13</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def password = karate.get(&#39;password&#39;, &#39;P@ssword1&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.14.0.call">
+    <div class="step-container" id="1.14.0.call.1.14">
+      <div class="step-ref passed">14</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>body.USERNAME = username</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.14.0.call">
+    <div class="step-container" id="1.14.0.call.1.15">
+      <div class="step-ref passed">15</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>body.PASSWORD = password</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.14.0.call">
+    <div class="step-container" id="1.14.0.call.1.16">
+      <div class="step-ref passed">16</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2990</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.14.0.call.1.16">12:47:23.334 request:
+1 &gt; POST https://ob4tlf46j7.execute-api.eu-west-1.amazonaws.com/default/GetToken
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 134
+1 &gt; Host: ob4tlf46j7.execute-api.eu-west-1.amazonaws.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;USERNAME&quot;:&quot;lucky011@cmdq.co.za&quot;,&quot;PASSWORD&quot;:&quot;P@ssword1&quot;,&quot;USERPOOL_ID&quot;:&quot;eu-west-1_u5hNPOFvP&quot;,&quot;CLIENT_ID&quot;:&quot;503d9j1q44v4l87id7h5n9q3hu&quot;}
+
+12:47:26.177 response time in milliseconds: 2840
+1 &lt; 200
+1 &lt; Date: Tue, 14 Jun 2022 10:47:26 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Content-Length: 4227
+1 &lt; Connection: keep-alive
+1 &lt; Apigw-Requestid: TtURjgwmjoEEJxg=
+{&quot;ChallengeParameters&quot;: {}, &quot;AuthenticationResult&quot;: {&quot;AccessToken&quot;: &quot;eyJraWQiOiJ5dEdXOUt1UjBIU1JJcG1jQmU5c1JkbVZ1R0hUdFpSN0RiVENnSWY0eHZvPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJmNzg1NWYzMy1jOTliLTQyMmUtYjVhMy0zNWU1YWNiNzZhZTkiLCJldmVudF9pZCI6IjVjYmQzNDE3LTdmMzgtNDI2NS05MDYwLWUyZTg1M2Q3N2ZiZCIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2NTUyMDM2NDYsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS13ZXN0LTEuYW1hem9uYXdzLmNvbVwvZXUtd2VzdC0xX3U1aE5QT0Z2UCIsImV4cCI6MTY1NTI5MDA0NiwiaWF0IjoxNjU1MjAzNjQ2LCJqdGkiOiIzMzUxOTg5OC0xZTZmLTRkZmYtODEyMy0zMjViM2NjZDFiMWMiLCJjbGllbnRfaWQiOiI1MDNkOWoxcTQ0djRsODdpZDdoNW45cTNodSIsInVzZXJuYW1lIjoiZjc4NTVmMzMtYzk5Yi00MjJlLWI1YTMtMzVlNWFjYjc2YWU5In0.M2Zj9YrMi3eJ6JYuJmPsAJGS33X4EU8ica8tdzCZXVC61nhqSCrTohqf10OD5EWcvCYEjDj8XSVT_kDtcmkvDn5PFe-FTxPJxufl972gdaZCA5MdNghbQw_-WeKx6rQEwL7vVSr2qGv-JeCNurfLJkkCLS4CbR_Eqkqq0lRzBvN6r_rEnzo-Qh-KOnE4xq9ZSh3ask5adT8N21vsTD6tNn3RJDEffsBAd5PpYWKt7dW1uu3-YW2MQL_Do4d-09MkLcwdsb05LLZgoFwDS5tLr6Re77ZlL76i8h_i48zOkNIGJk1FsOoJF79EinWCbh3zsCN1rsI284sQROERnPsdaA&quot;, &quot;ExpiresIn&quot;: 86400, &quot;TokenType&quot;: &quot;Bearer&quot;, &quot;RefreshToken&quot;: &quot;eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.BXE4tNgCa6_tJDMvcl7fgTS37JLnrBLeajHbA68pRjDqN1jCaXreslnSuBxgDe0fHZlHltWCXYJ5JTE7NrWgT-WZNuMScVynMaOZC6GezQVRhvzntz53RLyXltt3WIjq7NuytWLARjU6HcDIh6a_q1bYh4zJt9i4FIS0I6M-ybyfPWVsxEa82ja4snD33MLGt--y1YeHiHAldfKyaPop71xN4xsRZQC3zebgqhK2Lk8rK-u2qaAruv0Joa1d8LDVFlMDaxKXINmre85VpHNylfztrgbkLXg9bs0ISCpDrBhOHoecvrhFUntbF2E5iKUSNAok2jU8qC3f2mdhAs1vVg.5nAfD07NvcJP4jbK.aljkvTqT_a2F-jCUFX_zPM1hoQSLeoRFEsd8w3Kee2F9lQ-hg5t6T6dsP_rD3_Y43poaq_ZONh1SSAqLEha3T31DdT_iHX882VlELaqRNIAD5s7uTvff7mlFP36ZSxoHwyVkMiUvCZnmap5-toHi_x9TmEFnkZSNdLI8Rr0wkrj7w9ZZxHcBqiIRTFub9oW2BX-43y-5UZAReUy_JrRs6Unw4lGPqTYXaxzANX07Jj5F486JdxGYRQNVIOVtgj8StfyNlZCu0MgCAelHhZ9AuP0YdNFhhAfn0nLV_-e5b60Ple1hHeuIx4qr3NmdhTabaMOzI-SUbAJLplP6h2bX6Oq0Xf7SGNzI3CW3_nUYJsdyY_AyuUhAwR53YLJDVJyRbOVkXoUT9GsgLCLmzlpW2jceudqd5TEIHBjb6f7a4rpeTIsNiVibg32d5hpRQxUU0E90ohtBcCO-sZSeTHQbvT7pReXx6cDoNWP0DyXvqY2IKjY_PEiIhy1FkNvYe6JhGsWEz2vnb-8-jqKVqugxSpl5RGjD47v1jbIDnQR0BmAI0zBJdlubLQVF5y2w17xMEH5pHGYtS2LHHb0lP1MDHtPONKLHfcEXAecfBUjEj66MLFOdCue_kZAibEjgeLpFai4qfVOzTvlm9WwcEFOmcv6t5hbK5kTKRvS5Ro1lDgbRAeIFwssTyTTlwAO4fGNblnj7krqeCXHOVLobDI5cvxzEGapg7yxTZPS7-ehXgrNtA_FHXgA_vq-TpNCz9awZg12nmDihvHZ8FxKs5wKQKyWwiHp7h_AICWgGVRg8FT3YEDCdrNoGLGrsFZN56Ztb8G_-TmErcqad6xaHTdYy2BA9VLjd5hfCyTaC9ia6J1a2oprSRFpLHdIpecoZd2ge9qm_bhmvoVHTj6Yo9cROaJ5UPEsktfUkDFnqI6adxxUaqtqhlTmON9RmZnmKxdCJg0Z6S3zS4LStd3kmhKSPZ3tZYEpNNhdzQaHis5XA9YsB94_q6xHCBg5bnBbSWe11mx7aSMTi3eFzYkQb0ARAn8jg_cjgJQdRwKzFPReaIawUzcYyFWYHhzmFI4sLpOZBapSyzW_bnXzumy0cxkDNuBFI-wHNzAsCsCOgMNJYY3tTZepiTuupGPmAQt2ZeVTclhJmS5BrUs3Epp7uLqihAa-XJnbph8U9tdl_pAXjOYQutysyFtlMdrbchT_3ciMKuwHwAsMm-MgdfN5EBSiQvqVkLF8nHl6k39L1YVImWA6uaG6fsIaoFzDVQusSRvh-6Ek2J0WaRkqVwC7-3EWs9SuSg3DdjrQBTn8Jp4_ZvW7MrEusy8CcA1pADQ.jm7NoQjmxFF-Zn7ru3dIRw&quot;, &quot;IdToken&quot;: &quot;eyJraWQiOiJPQXdwMGF2U0xhakFwV1pwM0xVK2p0Z1FOUVhiVnVyRUZ3ZWJkdGVQUlJNPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJmNzg1NWYzMy1jOTliLTQyMmUtYjVhMy0zNWU1YWNiNzZhZTkiLCJhdWQiOiI1MDNkOWoxcTQ0djRsODdpZDdoNW45cTNodSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjVjYmQzNDE3LTdmMzgtNDI2NS05MDYwLWUyZTg1M2Q3N2ZiZCIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjU1MjAzNjQ2LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuZXUtd2VzdC0xLmFtYXpvbmF3cy5jb21cL2V1LXdlc3QtMV91NWhOUE9GdlAiLCJjb2duaXRvOnVzZXJuYW1lIjoiZjc4NTVmMzMtYzk5Yi00MjJlLWI1YTMtMzVlNWFjYjc2YWU5IiwiZXhwIjoxNjU1MjA3MjQ2LCJpYXQiOjE2NTUyMDM2NDYsImVtYWlsIjoibHVja3kwMTFAY21kcS5jby56YSJ9.hzG9ZmZsX0COob-wPdSnVKM4KETQvQmfcxvCdGfUf0l1G8LdhGifvwZebZ93V6Vo7jcXa3c6soDrRhTy14RtLsCOpmoXnR02K7FGAsF98avxX5IfviK3SZwudceIme5pleNeN88EFcaRJkIIe8fVjMbADsIrZvIPdD4L4L_nk9K-MUrHfYCt2uZWnDmkoMnoB_Qrl5Wa9m1VSYMFaKZADVv-dwZAaArjRR-xxXAwrcioYSWYmWEgkRgcCq2umAApWGbSqHD-hqQ7JTrqGQvvkjo1XtidSrQi9YRXFadau9vohAHks6jHT1ldOIbRK4jnPBNyLg_gnz8QgLmhJxFS5g&quot;}, &quot;ResponseMetadata&quot;: {&quot;RequestId&quot;: &quot;5cbd3417-7f38-4265-9060-e2e853d77fbd&quot;, &quot;HTTPStatusCode&quot;: 200, &quot;HTTPHeaders&quot;: {&quot;date&quot;: &quot;Tue, 14 Jun 2022 10:47:26 GMT&quot;, &quot;content-type&quot;: &quot;application/x-amz-json-1.1&quot;, &quot;content-length&quot;: &quot;3879&quot;, &quot;connection&quot;: &quot;keep-alive&quot;, &quot;x-amzn-requestid&quot;: &quot;5cbd3417-7f38-4265-9060-e2e853d77fbd&quot;}, &quot;RetryAttempts&quot;: 0}}
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.14.0.call">
+    <div class="step-container" id="1.14.0.call.1.17">
+      <div class="step-ref passed">17</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.14.0.call">
+    <div class="step-container" id="1.14.0.call.1.18">
+      <div class="step-ref passed">18</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def AccessToken = response.AuthenticationResult.IdToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = &#39;Bearer &#39;+AccessToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request json</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>json.address.line1 = &#39;line1b&#39;+new extractor().todaysDateTime()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>json.address.line2 = &#39;line2&#39;+new extractor().todaysDateTime()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>json.address.city = &#39;city&#39;+new extractor().todaysDateTime()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>json.address.country = &#39;country&#39;+new extractor().todaysDateTime()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>json.address.suburb = &#39;suburb&#39;+new extractor().todaysDateTime()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>json.address.postalCode = &#39;code&#39;+new extractor().todaysDateTime()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>json.postalAddress.line1 = &#39;line1&#39;+new extractor().todaysDateTime()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>json.postalAddress.line2 = &#39;line2&#39;+new extractor().todaysDateTime()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>json.postalAddress.city = &#39;city&#39;+new extractor().todaysDateTime()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>json.postalAddress.country = &#39;country&#39;+new extractor().todaysDateTime()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>json.postalAddress.suburb = &#39;suburb&#39;+new extractor().todaysDateTime()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>json.postalAddress.postalCode = &#39;code&#39;+new extractor().todaysDateTime()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>method put</span>
+      </div>
+    </div>
+    <div class="time-cell passed">784</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.30">12:47:26.200 request:
+1 &gt; PUT https://api.uatwamly.co.za/wamly/v1//organization/f4312418-e16b-4b94-8e6a-e4b11156c56d/details
+1 &gt; Authorization: Bearer eyJraWQiOiJPQXdwMGF2U0xhakFwV1pwM0xVK2p0Z1FOUVhiVnVyRUZ3ZWJkdGVQUlJNPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJmNzg1NWYzMy1jOTliLTQyMmUtYjVhMy0zNWU1YWNiNzZhZTkiLCJhdWQiOiI1MDNkOWoxcTQ0djRsODdpZDdoNW45cTNodSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjVjYmQzNDE3LTdmMzgtNDI2NS05MDYwLWUyZTg1M2Q3N2ZiZCIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjU1MjAzNjQ2LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuZXUtd2VzdC0xLmFtYXpvbmF3cy5jb21cL2V1LXdlc3QtMV91NWhOUE9GdlAiLCJjb2duaXRvOnVzZXJuYW1lIjoiZjc4NTVmMzMtYzk5Yi00MjJlLWI1YTMtMzVlNWFjYjc2YWU5IiwiZXhwIjoxNjU1MjA3MjQ2LCJpYXQiOjE2NTUyMDM2NDYsImVtYWlsIjoibHVja3kwMTFAY21kcS5jby56YSJ9.hzG9ZmZsX0COob-wPdSnVKM4KETQvQmfcxvCdGfUf0l1G8LdhGifvwZebZ93V6Vo7jcXa3c6soDrRhTy14RtLsCOpmoXnR02K7FGAsF98avxX5IfviK3SZwudceIme5pleNeN88EFcaRJkIIe8fVjMbADsIrZvIPdD4L4L_nk9K-MUrHfYCt2uZWnDmkoMnoB_Qrl5Wa9m1VSYMFaKZADVv-dwZAaArjRR-xxXAwrcioYSWYmWEgkRgcCq2umAApWGbSqHD-hqQ7JTrqGQvvkjo1XtidSrQi9YRXFadau9vohAHks6jHT1ldOIbRK4jnPBNyLg_gnz8QgLmhJxFS5g
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 920
+1 &gt; Host: api.uatwamly.co.za
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;organizationName&quot;:&quot;UFC&quot;,&quot;registeredName&quot;:&quot;UFC&quot;,&quot;telephoneNumber&quot;:&quot;0123456789&quot;,&quot;mailingAddress&quot;:&quot;lucky011@cmdq.co.za&quot;,&quot;organizationStatus&quot;:&quot;ACTIVE&quot;,&quot;replyToAddress&quot;:&quot;lucky011@cmdq.co.za&quot;,&quot;organizationType&quot;:&quot;${organizationType}&quot;,&quot;invoiceAddresses&quot;:[{&quot;id&quot;:&quot;6f006fce-9024-4359-be64-0a6d01da1df9&quot;,&quot;invoiceAddress&quot;:&quot;lucky011@gmail.com&quot;}],&quot;vatnumber&quot;:&quot;&quot;,&quot;address&quot;:{&quot;line1&quot;:&quot;line1b2022-06-14T12:47:26.190&quot;,&quot;line2&quot;:&quot;line22022-06-14T12:47:26.191&quot;,&quot;country&quot;:&quot;country2022-06-14T12:47:26.193&quot;,&quot;city&quot;:&quot;city2022-06-14T12:47:26.192&quot;,&quot;suburb&quot;:&quot;suburb2022-06-14T12:47:26.193&quot;,&quot;postalCode&quot;:&quot;code2022-06-14T12:47:26.194&quot;,&quot;state&quot;:null},&quot;postalAddress&quot;:{&quot;city&quot;:&quot;city2022-06-14T12:47:26.196&quot;,&quot;country&quot;:&quot;country2022-06-14T12:47:26.197&quot;,&quot;line1&quot;:&quot;line12022-06-14T12:47:26.195&quot;,&quot;line2&quot;:&quot;line22022-06-14T12:47:26.196&quot;,&quot;postalCode&quot;:&quot;code2022-06-14T12:47:26.198&quot;,&quot;suburb&quot;:&quot;suburb2022-06-14T12:47:26.198&quot;,&quot;state&quot;:null},&quot;isPostalSameAsPhysical&quot;:true}
+
+12:47:26.980 response time in milliseconds: 777
+1 &lt; 201
+1 &lt; Content-Type: application/json
+1 &lt; Content-Length: 17001
+1 &lt; Connection: keep-alive
+1 &lt; Date: Tue, 14 Jun 2022 10:47:27 GMT
+1 &lt; apigw-requestid: TtUR7ioXDoEEPdg=
+1 &lt; vary: Origin
+1 &lt; vary: Access-Control-Request-Method
+1 &lt; vary: Access-Control-Request-Headers
+1 &lt; X-Cache: Miss from cloudfront
+1 &lt; Via: 1.1 e75904c2e094d4ad268368606c2a1402.cloudfront.net (CloudFront)
+1 &lt; X-Amz-Cf-Pop: JNB50-C1
+1 &lt; X-Amz-Cf-Id: 7TI1xnipMx0w7mt22KRX3A9THQgMD7WWS0W0H8kbDXzIDDs_18aEbQ==
+{&quot;code&quot;:&quot;201&quot;,&quot;response&quot;:{&quot;id&quot;:&quot;f4312418-e16b-4b94-8e6a-e4b11156c56d&quot;,&quot;creationDate&quot;:&quot;2022-04-01T15:05:45.105239&quot;,&quot;lastModifiedDate&quot;:&quot;2022-04-01T15:05:45.105239&quot;,&quot;address&quot;:{&quot;id&quot;:&quot;9a359df3-d976-46cd-93b3-4bd86dc0f599&quot;,&quot;line1&quot;:&quot;line1b2022-06-14T12:47:26.190&quot;,&quot;line2&quot;:&quot;line22022-06-14T12:47:26.191&quot;,&quot;country&quot;:&quot;country2022-06-14T12:47:26.193&quot;,&quot;city&quot;:&quot;city2022-06-14T12:47:26.192&quot;,&quot;suburb&quot;:&quot;suburb2022-06-14T12:47:26.193&quot;,&quot;postalCode&quot;:&quot;code2022-06-14T12:47:26.194&quot;,&quot;state&quot;:&quot;&quot;},&quot;postalAddress&quot;:{&quot;id&quot;:&quot;bd9e8974-94c5-461e-9026-5674b69be8e1&quot;,&quot;line1&quot;:&quot;line12022-06-14T12:47:26.195&quot;,&quot;line2&quot;:&quot;line22022-06-14T12:47:26.196&quot;,&quot;country&quot;:&quot;country2022-06-14T12:47:26.197&quot;,&quot;city&quot;:&quot;city2022-06-14T12:47:26.196&quot;,&quot;suburb&quot;:&quot;suburb2022-06-14T12:47:26.198&quot;,&quot;postalCode&quot;:&quot;code2022-06-14T12:47:26.198&quot;,&quot;state&quot;:&quot;&quot;},&quot;organizationSubscription&quot;:{&quot;creationDate&quot;:null,&quot;lastModifiedDate&quot;:null,&quot;id&quot;:&quot;1c95b0a6-908b-4437-aa58-504415681201&quot;,&quot;maxNumberOfInterviews&quot;:&quot;UNLIMITED&quot;,&quot;maxNumberOfProjects&quot;:&quot;UNLIMITED&quot;,&quot;subscriptionName&quot;:&quot;LARGE&quot;,&quot;currentNumberOfWatchedInterviews&quot;:0,&quot;commencementDate&quot;:&quot;2022-04-01&quot;,&quot;renewalDate&quot;:&quot;2022-05-01&quot;,&quot;maxNumberOfUser&quot;:&quot;UNLIMITED&quot;,&quot;currentNumberOfInterviews&quot;:0,&quot;currentNumberOfUser&quot;:1,&quot;currentNumberOfProjects&quot;:0},&quot;pfToken&quot;:null,&quot;commencementDate&quot;:&quot;2022-04-01&quot;,&quot;departments&quot;:[{&quot;id&quot;:&quot;18ef0806-f86c-4bcb-b2f9-e15faa04cc21&quot;,&quot;creationDate&quot;:null,&quot;lastModifiedDate&quot;:null,&quot;departmentName&quot;:&quot;&quot;,&quot;status&quot;:&quot;ACTIVE&quot;,&quot;projects&quot;:[]},{&quot;id&quot;:&quot;686e0762-46ed-4a78-bf11-47a2f90200de&quot;,&quot;creationDate&quot;:null,&quot;lastModifiedDate&quot;:null,&quot;departmentName&quot;:&quot;&quot;,&quot;status&quot;:&quot;ACTIVE&quot;,&quot;projects&quot;:[{&quot;id&quot;:&quot;f86e81b2-ce38-4d92-9eda-fbfc4f0d855c&quot;,&quot;creationDate&quot;:&quot;2022-04-01T15:05:47.940844&quot;,&quot;lastModifiedDate&quot;:null,&quot;projectName&quot;:&quot;Test Interview&quot;,&quot;projectCode&quot;:&quot;f86e81b2-ce38-4d92-9eda-fbfc4f0d855c&quot;,&quot;startDate&quot;:&quot;2022-04-01&quot;,&quot;endDate&quot;:null,&quot;status&quot;:&quot;Active&quot;,&quot;replyToMail&quot;:null,&quot;customEmail&quot;:null,&quot;organizationId&quot;:&quot;f4312418-e16b-4b94-8e6a-e4b11156c56d&quot;,&quot;genericLink&quot;:&quot;https://ui.uatwamly.co.za/wamly/invite/f86e81b2-ce38-4d92-9eda-fbfc4f0d855c/TkhMQU5ITEEtVFJVRS9UZXN0IEludGVydmlldy9udWxsL09QRU4=&quot;,&quot;notification&quot;:false,&quot;allowDemographics&quot;:false,&quot;introVideoId&quot;:null,&quot;hideRaters&quot;:false,&quot;vacancyId&quot;:0,&quot;blurVideo&quot;:false,&quot;allowBreather&quot;:false,&quot;projectForm&quot;:null,&quot;notifyAdmin&quot;:false,&quot;department&quot;:&quot;686e0762-46ed-4a78-bf11-47a2f90200de&quot;,&quot;emailTemplate&quot;:null,&quot;interviewGuide&quot;:null,&quot;tinyURL&quot;:&quot;https://tinyurl.com/y69vv746&quot;,&quot;description&quot;:null,&quot;active&quot;:true,&quot;inactive&quot;:false,&quot;draft&quot;:false}]}],&quot;interviewGuides&quot;:[{&quot;id&quot;:&quot;0c7b16b3-93ff-4d49-96a7-3d3653e07bcb&quot;,&quot;creationDate&quot;:null,&quot;lastModifiedDate&quot;:null,&quot;title&quot;:&quot;Android Developer&quot;,&quot;description&quot;:&quot;This is an example of a typical interview guide for this type of role. Please feel free to edit/duplicate or delete this guide to suit your unique context and environment.&quot;,&quot;status&quot;:&quot;ACTIVE&quot;,&quot;deleted&quot;:false,&quot;default&quot;:true},{&quot;id&quot;:&quot;117dfc53-9642-40fe-a598-487c6eb43a42&quot;,&quot;creationDate&quot;:null,&quot;lastModifiedDate&quot;:null,&quot;title&quot;:&quot;Accountant&quot;,&quot;description&quot;:&quot;This is an example of a typical interview guide for this type of role. Please feel free to edit/duplicate or delete this guide to suit your unique context and environment.&quot;,&quot;status&quot;:&quot;ACTIVE&quot;,&quot;deleted&quot;:false,&quot;default&quot;:true},{&quot;id&quot;:&quot;26a90fc3-312d-485d-a7ec-03497499dc7e&quot;,&quot;creationDate&quot;:null,&quot;lastModifiedDate&quot;:null,&quot;title&quot;:&quot;Marketing Manager&quot;,&quot;description&quot;:&quot;This is an example of a typical interview guide for this type of role. Please feel free to edit/duplicate or delete this guide to suit your unique context and environment.&quot;,&quot;status&quot;:&quot;ACTIVE&quot;,&quot;deleted&quot;:false,&quot;default&quot;:true},{&quot;id&quot;:&quot;5c949e0c-1401-4654-a851-d0eec49babb0&quot;,&quot;creationDate&quot;:null,&quot;lastModifiedDate&quot;:null,&quot;title&quot;:&quot;Customer / Sales service agent&quot;,&quot;description&quot;:&quot;This is an example of a typical interview guide for this type of role. Please feel free to edit/duplicate or delete this guide to suit your unique context and environment.&quot;,&quot;status&quot;:&quot;ACTIVE&quot;,&quot;deleted&quot;:false,&quot;default&quot;:true},{&quot;id&quot;:&quot;5eccdf71-1134-4fe2-a96c-d56a35fbeab1&quot;,&quot;creationDate&quot;:null,&quot;lastModifiedDate&quot;:null,&quot;title&quot;:&quot;Admin Assistant&quot;,&quot;description&quot;:&quot;This is an example of a typical interview guide for this type of role. Please feel free to edit/duplicate or delete this guide to suit your unique context and environment.&quot;,&quot;status&quot;:&quot;ACTIVE&quot;,&quot;deleted&quot;:false,&quot;default&quot;:true},{&quot;id&quot;:&quot;5fe4cacb-a80d-455d-b69a-cd8c6ea5b024&quot;,&quot;creationDate&quot;:null,&quot;lastModifiedDate&quot;:null,&quot;title&quot;:&quot;Backend Developer&quot;,&quot;description&quot;:&quot;This is an example of a typical interview guide for this type of role. Please feel free to edit/duplicate or delete this guide to suit your unique context and environment.&quot;,&quot;status&quot;:&quot;ACTIVE&quot;,&quot;deleted&quot;:false,&quot;default&quot;:true},{&quot;id&quot;:&quot;68f677ff-ec44-40e0-ac96-9116bb5b3e5d&quot;,&quot;creationDate&quot;:null,&quot;lastModifiedDate&quot;:null,&quot;title&quot;:&quot;Project Manager&quot;,&quot;description&quot;:&quot;This is an example of a typical interview guide for this type of role. Please feel free to edit/duplicate or delete this guide to suit your unique context and environment.&quot;,&quot;status&quot;:&quot;ACTIVE&quot;,&quot;deleted&quot;:false,&quot;default&quot;:true},{&quot;id&quot;:&quot;8a471a9a-e02a-46c7-99be-7c5f30a22e48&quot;,&quot;creationDate&quot;:null,&quot;lastModifiedDate&quot;:null,&quot;title&quot;:&quot;Full Stack Developer&quot;,&quot;description&quot;:&quot;This is an example of a typical interview guide for this type of role. Please feel free to edit/duplicate or delete this guide to suit your unique context and environment.&quot;,&quot;status&quot;:&quot;ACTIVE&quot;,&quot;deleted&quot;:false,&quot;default&quot;:true},{&quot;id&quot;:&quot;9359ab11-fc69-4668-8dd8-e795a1fa4035&quot;,&quot;creationDate&quot;:null,&quot;lastModifiedDate&quot;:null,&quot;title&quot;:&quot;Sales Development&quot;,&quot;description&quot;:&quot;This is an example of a typical interview guide for this type of role. Please feel free to edit/duplicate or delete this guide to suit your unique context and environment.&quot;,&quot;status&quot;:&quot;ACTIVE&quot;,&quot;deleted&quot;:false,&quot;default&quot;:true},{&quot;id&quot;:&quot;c19d5557-9071-483b-80ab-fcf426b118c0&quot;,&quot;creationDate&quot;:null,&quot;lastModifiedDate&quot;:null,&quot;title&quot;:&quot;Business Analyst&quot;,&quot;description&quot;:&quot;This is an example of a typical interview guide for this type of role. Please feel free to edit/duplicate or delete this guide to suit your unique context and environment.&quot;,&quot;status&quot;:&quot;ACTIVE&quot;,&quot;deleted&quot;:false,&quot;default&quot;:true},{&quot;id&quot;:&quot;c614eeab-2117-4a27-81a7-d3b2a883bda2&quot;,&quot;creationDate&quot;:null,&quot;lastModifiedDate&quot;:null,&quot;title&quot;:&quot;Senior IOS Developer&quot;,&quot;description&quot;:&quot;This is an example of a typical interview guide for this type of role. Please feel free to edit/duplicate or delete this guide to suit your unique context and environment.&quot;,&quot;status&quot;:&quot;ACTIVE&quot;,&quot;deleted&quot;:false,&quot;default&quot;:true}],&quot;emailTemplates&quot;:[{&quot;creationDate&quot;:&quot;2022-04-01T15:05:46.414105&quot;,&quot;lastModifiedDate&quot;:&quot;2022-04-01T15:05:46.414105&quot;,&quot;id&quot;:&quot;0ddb0eaa-a54a-4c2e-8a0f-020219fd51ef&quot;,&quot;subjectLine&quot;:&quot;Congratulations, you are through to the next round&quot;,&quot;name&quot;:&quot;Next Round&quot;,&quot;type&quot;:null,&quot;emailContent&quot;:&quot;&lt;table style=\&quot;margin-left: auto; margin-right: auto; width: 73.6111%;\&quot; border=\&quot;0\&quot; cellspacing=\&quot;0\&quot; cellpadding=\&quot;0\&quot;&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td style=\&quot;width: 100%;\&quot;&gt;&lt;img src=\&quot;https://wamly.io/wp-content/uploads/2021/09/reaplce-logo.png\&quot; alt=\&quot;\&quot; width=\&quot;1060\&quot; height=\&quot;240\&quot; /&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td style=\&quot;width: 100%;\&quot;&gt;\n&lt;p style=\&quot;text-align: left;\&quot;&gt;&lt;span data-offset-key=\&quot;eqpf6-0-0\&quot;&gt;Dear, #CANFNAME#&lt;/span&gt;,&lt;/p&gt;\n&lt;p style=\&quot;text-align: left;\&quot;&gt;Thank you so much for the video, we liked what we saw. Congratulations, you have made it through to the next round and we would like to invite you to a formal interview with our panel. We will be in touch with you with further details.&lt;/p&gt;\n&lt;div data-block=\&quot;true\&quot; data-editor=\&quot;3gi7i\&quot; data-offset-key=\&quot;eqpf6-0-0\&quot;&gt;\n&lt;div class=\&quot;public-DraftStyleDefault-block public-DraftStyleDefault-ltr\&quot; data-offset-key=\&quot;eqpf6-0-0\&quot;&gt;\n&lt;p&gt;&lt;span data-offset-key=\&quot;77ptj-0-0\&quot;&gt;We look forward to engaging with you!&lt;/span&gt;&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;div data-block=\&quot;true\&quot; data-editor=\&quot;3gi7i\&quot; data-offset-key=\&quot;77ptj-0-0\&quot;&gt;\n&lt;div class=\&quot;public-DraftStyleDefault-block public-DraftStyleDefault-ltr\&quot; data-offset-key=\&quot;77ptj-0-0\&quot;&gt;\n&lt;p&gt;Warm Regards,&lt;/p&gt;\n&lt;p&gt;#ORGNAME#&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td style=\&quot;width: 100%;\&quot;&gt;&lt;img src=\&quot;https://wamly.io/wp-content/uploads/2021/09/reaplce-logo.png\&quot; alt=\&quot;\&quot; width=\&quot;1060\&quot; height=\&quot;240\&quot; /&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td style=\&quot;width: 100%;\&quot;&gt;\n&lt;p style=\&quot;text-align: center;\&quot;&gt;#ORGNAME#, #SUBURB#, #STATE/PROVINCE#, #POSTALCODE#&lt;/p&gt;\n&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;&quot;,&quot;status&quot;:&quot;ACTIVE&quot;,&quot;signature&quot;:null,&quot;deleteStatus&quot;:false,&quot;invitation&quot;:false},{&quot;creationDate&quot;:&quot;2022-04-01T15:05:46.445015&quot;,&quot;lastModifiedDate&quot;:&quot;2022-04-01T15:05:46.445015&quot;,&quot;id&quot;:&quot;7e91c9ab-17e2-4cab-b643-6646612e7bb4&quot;,&quot;subjectLine&quot;:&quot;We are so sorry to inform you...&quot;,&quot;name&quot;:&quot;Rejected&quot;,&quot;type&quot;:null,&quot;emailContent&quot;:&quot;&lt;table style=\&quot;margin-left: auto; margin-right: auto; width: 73.6111%;\&quot; border=\&quot;0\&quot; cellspacing=\&quot;0\&quot; cellpadding=\&quot;0\&quot;&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td style=\&quot;width: 100%;\&quot;&gt;&lt;img src=\&quot;https://wamly.io/wp-content/uploads/2021/09/reaplce-logo.png\&quot; alt=\&quot;\&quot; width=\&quot;1060\&quot; height=\&quot;240\&quot; /&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td style=\&quot;width: 100%;\&quot;&gt;\n&lt;p style=\&quot;text-align: left;\&quot;&gt;&lt;span data-offset-key=\&quot;eqpf6-0-0\&quot;&gt;Dear, #CANFNAME#,&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\&quot;text-align: left;\&quot;&gt;Thank you for participating in the Wamly video interview.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;We regret to inform you that you have unfortunately not been successful for this position. However, please feel free to continue to apply for alternative vacancies in our business.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;We wish you all the very best with your career journey!&amp;nbsp;&lt;/p&gt;\n&lt;div data-block=\&quot;true\&quot; data-editor=\&quot;3gi7i\&quot; data-offset-key=\&quot;77ptj-0-0\&quot;&gt;\n&lt;div class=\&quot;public-DraftStyleDefault-block public-DraftStyleDefault-ltr\&quot; data-offset-key=\&quot;77ptj-0-0\&quot;&gt;\n&lt;p&gt;Warm Regards,&lt;/p&gt;\n&lt;p&gt;#ORGNAME#&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td style=\&quot;width: 100%;\&quot;&gt;&lt;img src=\&quot;https://wamly.io/wp-content/uploads/2021/09/reaplce-logo.png\&quot; alt=\&quot;\&quot; width=\&quot;1060\&quot; height=\&quot;240\&quot; /&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td style=\&quot;width: 100%;\&quot;&gt;\n&lt;p style=\&quot;text-align: center;\&quot;&gt;#ORGNAME#, #SUBURB#, #STATE/PROVINCE#, #POSTALCODE#&lt;/p&gt;\n&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;&quot;,&quot;status&quot;:&quot;ACTIVE&quot;,&quot;signature&quot;:null,&quot;deleteStatus&quot;:false,&quot;invitation&quot;:false},{&quot;creationDate&quot;:&quot;2022-04-01T15:05:46.364974&quot;,&quot;lastModifiedDate&quot;:&quot;2022-04-01T15:05:46.364974&quot;,&quot;id&quot;:&quot;c2539b97-ff68-4de5-961e-59608fbc97ec&quot;,&quot;subjectLine&quot;:&quot;You have been invited to a one-way video interview&quot;,&quot;name&quot;:&quot;Custom Invitation&quot;,&quot;type&quot;:null,&quot;emailContent&quot;:&quot;&lt;table style=\&quot;margin-left: auto; margin-right: auto; width: 73.6111%;\&quot; border=\&quot;0\&quot; cellspacing=\&quot;0\&quot; cellpadding=\&quot;0\&quot;&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td style=\&quot;width: 100%;\&quot;&gt;&lt;img src=\&quot;https://wamly.io/wp-content/uploads/2021/09/reaplce-logo.png\&quot; alt=\&quot;\&quot; width=\&quot;1060\&quot; height=\&quot;240\&quot; /&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td style=\&quot;width: 100%;\&quot;&gt;\n&lt;p style=\&quot;text-align: left;\&quot;&gt;&lt;span data-offset-key=\&quot;eqpf6-0-0\&quot;&gt;Dear, #CANFNAME#&lt;/span&gt;,&lt;/p&gt;\n&lt;p style=\&quot;text-align: left;\&quot;&gt;Thank you for your application to be part of #ORGNAME#.&lt;/p&gt;\n&lt;p&gt;We would like to get to know you! You have been invited to a one-way video interview where you will be asked a series of questions as part of the recruitment process. You can complete the interview on any device with a webcam/microphone and we will then review your responses as a panel.&lt;/p&gt;\n&lt;p&gt;Click on the link below and follow the on-screen instructions for more information and to start the interview:&lt;/p&gt;\n&lt;p style=\&quot;text-align: center;\&quot;&gt;&lt;span data-offset-key=\&quot;e8obv-0-0\&quot;&gt;&lt;strong&gt;#INVITELINK#&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;div data-block=\&quot;true\&quot; data-editor=\&quot;3gi7i\&quot; data-offset-key=\&quot;eqpf6-0-0\&quot;&gt;\n&lt;div class=\&quot;public-DraftStyleDefault-block public-DraftStyleDefault-ltr\&quot; data-offset-key=\&quot;eqpf6-0-0\&quot;&gt;\n&lt;p dir=\&quot;ltr\&quot;&gt;Please take note of the following technical requirements by clicking on this link:&lt;/p&gt;\n&lt;p dir=\&quot;ltr\&quot;&gt;&lt;a href=\&quot;https://support.wamly.io/support/solutions/articles/77000435757\&quot; target=\&quot;_blank\&quot; rel=\&quot;noopener\&quot;&gt;https://support.wamly.io/support/solutions/articles/77000435757&lt;/a&gt;&lt;/p&gt;\n&lt;p dir=\&quot;ltr\&quot;&gt;Don&amp;rsquo;t worry! You will have a test run on how the process works and help is at your fingertips should you need this. We ask that you prepare as you would for a face-to-face interview. Should you be successful in this round, we will be in contact with you for a second-round interview.&lt;/p&gt;\n&lt;p&gt;Our purpose is to create memorable moments and crafting a better future for all. Grab this opportunity and make the most of it -who knows, this could be the start of a beautiful journey!&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;div data-block=\&quot;true\&quot; data-editor=\&quot;3gi7i\&quot; data-offset-key=\&quot;77ptj-0-0\&quot;&gt;\n&lt;div class=\&quot;public-DraftStyleDefault-block public-DraftStyleDefault-ltr\&quot; data-offset-key=\&quot;77ptj-0-0\&quot;&gt;\n&lt;p&gt;We wish you all the best in your interview.&lt;/p&gt;\n&lt;p&gt;Warm Regards,&lt;/p&gt;\n&lt;p&gt;#ORGNAME#&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td style=\&quot;width: 100%;\&quot;&gt;&lt;img src=\&quot;https://wamly.io/wp-content/uploads/2021/09/reaplce-logo.png\&quot; alt=\&quot;\&quot; width=\&quot;1060\&quot; height=\&quot;240\&quot; /&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td style=\&quot;width: 100%;\&quot;&gt;\n&lt;p style=\&quot;text-align: center;\&quot;&gt;#ORGNAME#, #SUBURB#, #STATE/PROVINCE#, #POSTALCODE#&lt;/p&gt;\n&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;&quot;,&quot;status&quot;:&quot;ACTIVE&quot;,&quot;signature&quot;:null,&quot;deleteStatus&quot;:false,&quot;invitation&quot;:true},{&quot;creationDate&quot;:&quot;2022-04-01T15:05:46.477974&quot;,&quot;lastModifiedDate&quot;:&quot;2022-04-01T15:05:46.477974&quot;,&quot;id&quot;:&quot;ec1eb012-995d-4f2d-b946-319f52c5f0d5&quot;,&quot;subjectLine&quot;:&quot;Please remember to submit your one-way video interview&quot;,&quot;name&quot;:&quot;Reminder&quot;,&quot;type&quot;:null,&quot;emailContent&quot;:&quot;&lt;table style=\&quot;margin-left: auto; margin-right: auto; width: 73.6111%;\&quot; border=\&quot;0\&quot; cellspacing=\&quot;0\&quot; cellpadding=\&quot;0\&quot;&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td style=\&quot;width: 100%;\&quot;&gt;&lt;img src=\&quot;https://wamly.io/wp-content/uploads/2021/09/reaplce-logo.png\&quot; alt=\&quot;\&quot; width=\&quot;1060\&quot; height=\&quot;240\&quot; /&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td style=\&quot;width: 100%;\&quot;&gt;\n&lt;p style=\&quot;text-align: left;\&quot;&gt;&lt;span data-offset-key=\&quot;eqpf6-0-0\&quot;&gt;Dear, #CANFNAME#&lt;/span&gt;,&lt;/p&gt;\n&lt;p style=\&quot;text-align: left;\&quot;&gt;You have been invited to a one-way video interview where you will be asked a series of questions as part of the recruitment process. You can complete the interview on any device with a webcam/microphone and we will then review your responses as a panel.&lt;/p&gt;\n&lt;p&gt;This is a kind reminder that the deadline for this interview is #ENDDATE#.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Click on the link below and follow the on-screen instructions for more information and to start the interview:&lt;/p&gt;\n&lt;p style=\&quot;text-align: center;\&quot;&gt;&lt;span data-offset-key=\&quot;e8obv-0-0\&quot;&gt;&lt;strong&gt;#INVITELINK#&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;div data-block=\&quot;true\&quot; data-editor=\&quot;3gi7i\&quot; data-offset-key=\&quot;eqpf6-0-0\&quot;&gt;\n&lt;div class=\&quot;public-DraftStyleDefault-block public-DraftStyleDefault-ltr\&quot; data-offset-key=\&quot;eqpf6-0-0\&quot;&gt;\n&lt;p dir=\&quot;ltr\&quot;&gt;Please take note of the following technical requirements by clicking on this link:&lt;/p&gt;\n&lt;p dir=\&quot;ltr\&quot;&gt;&lt;a href=\&quot;https://support.wamly.io/support/solutions/articles/77000435757\&quot; target=\&quot;_blank\&quot; rel=\&quot;noopener\&quot;&gt;https://support.wamly.io/support/solutions/articles/77000435757&lt;/a&gt;&lt;/p&gt;\n&lt;p dir=\&quot;ltr\&quot;&gt;Don&amp;rsquo;t worry! You will have a test run on how the process works and help is at your fingertips should you need this. We ask that you prepare as you would for a face-to-face interview. Should you be successful in this round, we will be in contact with you for a second-round interview.&lt;/p&gt;\n&lt;p&gt;Our purpose is to create memorable moments and crafting a better future for all. Grab this opportunity and make the most of it -who knows, this could be the start of a beautiful journey!&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;div data-block=\&quot;true\&quot; data-editor=\&quot;3gi7i\&quot; data-offset-key=\&quot;77ptj-0-0\&quot;&gt;\n&lt;div class=\&quot;public-DraftStyleDefault-block public-DraftStyleDefault-ltr\&quot; data-offset-key=\&quot;77ptj-0-0\&quot;&gt;\n&lt;p&gt;We wish you all the best in your interview.&lt;/p&gt;\n&lt;p&gt;Warm Regards,&lt;/p&gt;\n&lt;p&gt;#ORGNAME#&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td style=\&quot;width: 100%;\&quot;&gt;&lt;img src=\&quot;https://wamly.io/wp-content/uploads/2021/09/reaplce-logo.png\&quot; alt=\&quot;\&quot; width=\&quot;1060\&quot; height=\&quot;240\&quot; /&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td style=\&quot;width: 100%;\&quot;&gt;\n&lt;p style=\&quot;text-align: center;\&quot;&gt;#ORGNAME#, #SUBURB#, #STATE/PROVINCE#, #POSTALCODE#&lt;/p&gt;\n&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;&quot;,&quot;status&quot;:&quot;ACTIVE&quot;,&quot;signature&quot;:null,&quot;deleteStatus&quot;:false,&quot;invitation&quot;:false}],&quot;organizationName&quot;:&quot;UFC&quot;,&quot;registeredName&quot;:&quot;UFC&quot;,&quot;telephoneNumber&quot;:&quot;0123456789&quot;,&quot;mailingAddress&quot;:&quot;lucky011@cmdq.co.za&quot;,&quot;invoicingAddresses&quot;:[{&quot;id&quot;:&quot;6f006fce-9024-4359-be64-0a6d01da1df9&quot;,&quot;invoiceAddress&quot;:&quot;lucky011@gmail.com&quot;}],&quot;country&quot;:&quot;Mozambique&quot;,&quot;replyToAddress&quot;:&quot;lucky011@cmdq.co.za&quot;,&quot;organizationType&quot;:&quot;${organizationType}&quot;,&quot;code&quot;:&quot;BSPTNHLANHLATRUE20220401ade2&quot;,&quot;distributor&quot;:&quot;WAMLY&quot;,&quot;partnerStatus&quot;:&quot;NO_STATUS&quot;,&quot;organizationStatus&quot;:&quot;ACTIVE&quot;,&quot;superOrganization&quot;:&quot;WAMLY&quot;,&quot;vatnumber&quot;:&quot;&quot;,&quot;tinyURL&quot;:&quot;MthoBakery&quot;,&quot;organizationCompanySubscription&quot;:{&quot;creationDate&quot;:null,&quot;lastModifiedDate&quot;:null,&quot;id&quot;:&quot;1c95b0a6-908b-4437-aa58-504415681201&quot;,&quot;maxNumberOfInterviews&quot;:&quot;UNLIMITED&quot;,&quot;maxNumberOfProjects&quot;:&quot;UNLIMITED&quot;,&quot;subscriptionName&quot;:&quot;LARGE&quot;,&quot;currentNumberOfWatchedInterviews&quot;:0,&quot;commencementDate&quot;:&quot;2022-04-01&quot;,&quot;renewalDate&quot;:&quot;2022-05-01&quot;,&quot;maxNumberOfUser&quot;:&quot;UNLIMITED&quot;,&quot;currentNumberOfInterviews&quot;:0,&quot;currentNumberOfUser&quot;:1,&quot;currentNumberOfProjects&quot;:0}},&quot;message&quot;:&quot;Organization Details updated&quot;,&quot;identifier&quot;:null,&quot;totalPages&quot;:0,&quot;lang&quot;:&quot;en&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.31">
+      <div class="step-ref passed">31</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>match response.response.address.line1 != response.response.postalAddress.line1</span>
+      </div>
+    </div>
+    <div class="time-cell passed">11</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.32">
+      <div class="step-ref passed">32</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>match response.response.address.line2 != response.response.postalAddress.line2</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>match response.response.address.city != response.response.postalAddress.city</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>match response.response.address.country != response.response.postalAddress.country</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>match response.response.address.suburb != response.response.postalAddress.suburb</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,5 @@
+TestId,scenarioDescription,organizationId,apiKey,requesterEmail,profileEmail,Password,path,message,status
+1,ADMINISTRATOR,fe187821-ca80-40c5-b265-9f24ab3754dd,c79088fd-9684-43bb-bf1b-c7b7bf13c549,raterTest@commandquality.co.za,raterTest@commandquality.co.za,P@ssword1,user/profile,User Profile Found,200
+1,ADMINISTRATOR,fe187821-ca80-40c5-b265-9f24ab3754dd,c79088fd-9684-43bb-bf1b-c7b7bf13c549,raterTest@commandquality.co.za,lucky011@cmdq.co.za,P@ssword1,user/profile,User Profile Found,200
+1,ADMINISTRATOR,fe187821-ca80-40c5-b265-9f24ab3754dd,c79088fd-9684-43bb-bf1b-c7b7bf13c549,raterTest@commandquality.co.za,Error@cmdq.co.za,P@ssword1,user/profile,User Profile Not Found,404
+

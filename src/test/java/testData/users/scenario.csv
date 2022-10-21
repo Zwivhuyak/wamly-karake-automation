@@ -1,0 +1,3 @@
+TestId,scenarioDescription,organizationId,apiKey,requesterEmail,Password,endpoint,message
+1,ADMINISTRATOR,fe187821-ca80-40c5-b265-9f24ab3754dd,5811f9dc-9ddf-423d-b1fd-461f2fc39c5b,raterTest@commandquality.co.za,P@ssword1,/wamly/v1/report/users,Delete requested. Verification pending
+

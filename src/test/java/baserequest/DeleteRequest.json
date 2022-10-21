@@ -1,0 +1,34 @@
+
+{
+
+  "organizationId": "fake_data",
+
+  "requester": "fake_data",
+
+  "status": false,
+
+  "target": "fake_data",
+
+  "candidateId": "fake_data",
+
+  "userId": "fake_data",
+
+  "organizations": [
+
+    "fake_data"
+
+  ],
+
+  "candidates": [
+
+    "fake_data"
+
+  ],
+
+  "users": [
+
+    "fake_data"
+
+  ]
+
+}

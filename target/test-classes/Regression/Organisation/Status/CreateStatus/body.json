@@ -1,0 +1,53 @@
+{"customStatusDTOS":
+[{"id":"b18827ef-edbe-4c21-8bb8-c2be03853ace",
+  "statusName":"NONE",
+  "status":"ACTIVE",
+  "organizationId":"dc141d52-2a86-4550-a146-ca2867a18f71",
+  "hidden":false,
+  "lang":"en"},
+  {
+    "id":"493db9d0-cd7b-4a17-989d-0d288b791b7c",
+    "statusName":"REJECTED",
+    "status":"ACTIVE",
+    "organizationId":"dc141d52-2a86-4550-a146-ca2867a18f71",
+    "hidden":false,
+    "lang":"en"
+  },
+  {
+    "id":"52d9ce69-43fd-4c3d-80ef-15ef2df4bcd8",
+    "statusName":"Marcel",
+    "status":"ACTIVE",
+    "organizationId":"dc141d52-2a86-4550-a146-ca2867a18f71",
+    "hidden":false,
+    "lang":"en"},
+  {
+    "id":"680bf7c6-f775-40fb-a7a4-e0148ceb5299",
+    "statusName":"ON HOLD",
+    "status":"ACTIVE",
+    "organizationId":"dc141d52-2a86-4550-a146-ca2867a18f71",
+    "hidden":false,
+    "lang":"en"},
+  {
+    "id":"a3481bdc-6ece-4d61-92e5-2da7b45a4e98",
+    "statusName":"EXCLUDE",
+    "status":"ACTIVE",
+    "organizationId":"dc141d52-2a86-4550-a146-ca2867a18f71",
+    "hidden":false,
+    "lang":"en"},
+  {
+    "id":"a3481bdc-6ece-4d61-92e5-2da7b45a4e98",
+    "statusName":"zwanga",
+    "status":"ACTIVE",
+    "organizationId":"dc141d52-2a86-4550-a146-ca2867a18f71",
+    "hidden":false,
+    "lang":"en"},{
+  "id":"a3481bdc-6ece-4d61-92e5-2da7b45a4e98",
+  "statusName":"34535",
+  "status":"ACTIVE",
+  "organizationId":"dc141d52-2a86-4550-a146-ca2867a18f71",
+  "hidden":false,
+  "lang":"en"
+
+}
+  ]}
+

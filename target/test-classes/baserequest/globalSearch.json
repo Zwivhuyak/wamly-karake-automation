@@ -1,0 +1,36 @@
+{
+  "aveRating": "",
+  "customStatus": "",
+  "department": "",
+  "endDate": "",
+  "filterDTO": {
+    "averageRating": "string",
+    "filters": [
+      {
+        "candidateIds": [
+          "string"
+        ],
+        "fieldName": "string",
+        "firstValue": "string",
+        "id": "string",
+        "lastValue": "string"
+      }
+    ],
+    "interviewStatus": "string",
+    "organizationId": "string",
+    "projectId": "string",
+    "ratingsCompleted": "string",
+    "status": "string"
+  },
+  "interviewStatus": "",
+  "nationality": "",
+  "organizationId": "",
+  "pageNumber": 0,
+  "pageSize": 0,
+  "project": "",
+  "projectStatus": "",
+  "ratersCompleted": "",
+  "searchTerm": "",
+  "startDate": "",
+  "userProfileId": ""
+}
